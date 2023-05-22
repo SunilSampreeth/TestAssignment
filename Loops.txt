@@ -1,0 +1,208 @@
+1.While Loop
+While loop is a looping statement which keeps on 
+executing until the condition is false.
+
+
+2.Do-While Loop:
+- Do-While loop is similar to while loop but do while 
+loop executes a set of instructions and then checks 
+the condition.
+
+eg.
+public class Demo {
+	public static void main(String[] args) {
+		int i=1;
+		do {
+			System.out.println("Welcome to java");
+			i++;
+		}
+		while(i<=10);
+	}
+
+}
+
+1.sum of 10 number
+
+public class Demo {
+	public static void main(String[] args) {
+		int i=1,sum=0;
+		while(i<=10) {
+			sum=sum+i;
+			i++;
+		}
+		System.out.println(sum);
+	}
+
+}
+
+
+2. to find reverse number 
+i/p=1234
+o/p=4321
+
+
+public class Reverse {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the number");
+		int num= sc.nextInt();
+		
+		int rev=0;
+		while(num>0) {
+			int rem=num%10; //Find the remainder
+			rev=rem+rev*10; //to find the reverse num
+			num=num/10; //to find new value od num in order to loop
+			
+		}
+		System.out.println(rev);
+	}
+}
+
+step1:
+int num=123,rev=0,
+while(num>0)
+while(123>0)---true
+int rem=num%10
+rem=123%10
+rem=3
+rev=rem+rev*10;
+rev=3+0*10;
+rev=3
+num=num/10
+num=123/10
+num=12----new value
+
+
+4.count the digits
+
+
+import java.util.Scanner;
+
+public class CountDigits {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the number");
+		int num= sc.nextInt();
+		int count=0;
+		while(num>0) {
+			num=num/10;
+			count++;
+		}
+		System.out.println(count);
+	}
+}
+
+
+4. polidrome Numbers
+i/p==121
+o/p==121---polindrome
+
+given the original num == and reverse the number is same 
+
+import java.util.Scanner;
+
+public class PolindromeNum {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the number");
+		int num= sc.nextInt();
+		
+		int  rev=0, rem, temp=num;
+		while(num>0) {
+			rem=num%10;
+			rev=rem+rev*10;
+			num=num/10;
+		}
+		System.out.println(temp);
+		System.out.println(rev);
+		if(temp==rev) {
+			System.out.println("polendrme number");
+		}
+		else
+			System.out.println("Not a polendrome number");
+	}
+}
+
+
+5.armstrong number
+
+ex.. queb of each digit and sum  == original number
+	(1+5+3)3== 153
+
+
+import java.util.Scanner;
+
+public class ArmstrongNum {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the number");
+		int num= sc.nextInt(); //153
+		
+		int a=0, temp=num, rem;
+		while(num>0) {
+			rem=num%10;
+			a=a+(rem*rem*rem);
+			num=num/10;
+			
+		}
+//		
+//		System.out.println(temp);
+//		System.out.println(a);
+		if(a==temp)
+			System.out.println("Armstrong number");
+		else
+			System.out.println("not armstrong number");
+	}
+}
+
+
+
+6.leap year
+
+
+import java.util.Scanner;
+
+public class LeapYear {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the Year");
+		int year = sc.nextInt();
+
+		if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
+			System.out.println("leap year");
+		} else
+			System.out.println("not a leap year");
+
+	}
+}
+
+7. prime number
+
+
+import java.util.Scanner;
+
+public class Prime {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the num");
+		int num = sc.nextInt();
+		
+		int count=0,i=3;
+		if(num%i==0) {
+			count++;
+			i++;
+		}
+		if(count==0)
+			System.out.println("prime number");
+		else
+			System.out.println("not a prime num");
+	}
+	
+}

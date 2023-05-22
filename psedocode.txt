@@ -1,0 +1,114 @@
+1.psedo code for face book login
+
+step1: enter the user name and enter the password
+step 2: read user name and password
+step 3: if user name and password match
+step 4: print "facebook login page"
+step 5: else
+step 6: "doesn't exits"
+step 7:stop
+
+* write a psedo code for whether number is positive or not
+
+algarithms 
+
+1. start
+2. read num
+3. if num>0
+4. print positive num
+5. else 
+	negetive num
+6. stop
+
+psedocode
+
+1. start
+2. enter the num
+3.read the num
+4. if num>0
+5.print"positive "
+6.else
+"negetive"
+7.end
+
+
+* w a psedocode  check  whether   2 num is greater 
+input :a , b
+output :which num greater 
+
+psedocode : greater num
+if a>b
+print "a is greater"
+else 
+print "b is greater
+end
+
+.w a pesodocode check whether num is lesser
+
+input : num
+output: lesser num
+
+psedocode:
+if num<0 
+print "lesser num"
+else
+print " it is not a lesser num"
+end
+
+procedure:check  number is even or odd
+
+start
+read input num
+if num%2==0:
+print "Even"
+else:
+print "Odd"
+end
+
+write a algarithm for sum of n numbers
+ex: n=5  5+4+3+2+1+0=15
+
+algarithms
+1. start
+2. read num , sum
+3. for i=0; i<num; i++
+4.sum=sum+i
+5.print sum
+6.stop
+
+psedocode
+
+input : num=5 
+output : 15
+step 1: procedur sum of N number
+2.initialize sum variable to zero
+3.initialize loop variable i = 1
+4.repeat the step5 and step 6 loop i<= N
+5.update the sum
+6.increment / decrement
+7.end
+
+
+count the number of digits
+
+algorithms
+
+step 1: start
+step 2: read num , count=0
+step 3: if num > 0
+step 4: num=num/10 
+	count++
+step 5: print count
+step 6: stop
+
+
+psedocode
+input : number N=1234
+output : 4
+step 1: count the number of digits
+step 2: intotialze count variable to zero
+step 3: repeat the loop step 5 and step 6
+step 5: update count variable
+step 6: n/10---- new n number  1234/10 = 123, 123/10 =12.....
+step 6: end
+

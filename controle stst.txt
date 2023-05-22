@@ -1,0 +1,388 @@
+1.wajp voting 
+
+public class Main
+{
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+		int age =20;
+		if(age>=18)
+		System.out.println("eligible");
+		else
+			System.out.println("not eligible");
+	}
+}
+
+3 .if else if
+
+public class Main
+{
+	public static void main(String[] args) {
+	String item ="iphone";
+	
+	if(item=="mi")
+	System.out.println("order mi");
+		
+	else if(item=="iphone")
+	System.out.println("order iphone");
+	else
+	System.out.println("search for other application");
+	
+	}
+}
+
+
+2.
+public class Main
+{
+	public static void main(String[] args) {
+	String city ="karnataka";
+	
+	if(city=="karnataka")
+	System.out.println(city+"  Bangalore");
+	else if(city=="andra")
+	System.out.println(city+"  amaravathi");
+	else if(city=="tamilnadu")
+	System.out.println(city+"  channi");
+	else
+	System.out.println(city+"does not exist");
+	
+	}
+}
+
+
+3. lorgest of 3 num
+
+public class Main
+{
+	public static void main(String[] args) {
+
+	  int a = 25, b = 78, c = 79;
+	  
+         if(a>b && a>c)
+         {
+             System.out.println(a);
+         }
+         else if(b>a && b>c)
+         {
+             System.out.println(b);
+         }
+         else   
+         {
+         System.out.println(c);
+	}
+	}
+
+4.
+public class Main
+{
+	public static void main(String[] args) {
+
+	  int score=90;
+	  
+         if(90 >= 100 )
+         {
+             System.out.println("A");
+         }
+         else if(80>=89)
+         {
+             System.out.println("B");
+         }
+          else if(70>=79)
+         {
+             System.out.println("C");
+         }
+          else if(50>=69)
+         {
+             System.out.println("D");
+         }
+         else   
+         {
+         System.out.println("F");
+	}
+	}
+}
+
+
+public class Main
+{
+	public static void main(String[] args) {
+
+	  int marks=80;
+	  
+         if(marks>=94 )
+         {
+             System.out.println("A");
+         }
+          else if(marks>=87==marks<=90)
+         {
+             System.out.println("A-");
+         }
+           else if(marks>=83==marks<=87)
+         {
+             System.out.println("B");
+         }
+          else if(marks>=80==marks<=83)
+         {
+             System.out.println("B-");
+         }
+          else if(marks>=77==marks<=80)
+         {
+             System.out.println("c");
+         }
+          else if(marks>=73==marks<=77)
+         {
+             System.out.println("c-");
+         }
+          else if(marks>=70==marks<=73)
+         {
+             System.out.println("d");
+         }
+         else   
+         {
+         System.out.println("f");
+	}
+	}
+}
+
+-------------------------------------------------
+
+switch statement
+
+1.
+public class Swith {
+public static void main(String[] args) {
+int choice =1;
+switch(choice) {
+case 1: System.out.println("i will select 1 one ");
+break;
+case 2: System.out.println("i will select 2 one ");
+break;
+case 3: System.out.println("i will select 3 one ");
+break;
+default:System.out.println("no choice");
+
+}
+}
+}
+
+
+2.public class SimpleCalculator {
+	public static void main(String[] args) {
+		
+		char oper= '+';
+		int a=10,b=20,res;
+		
+		switch(oper) {
+		case '+': res = a+b;
+		System.out.println(res);
+		break;
+		case '-': res = a-b;
+		System.out.println(res);
+		break;
+		case '*': res = a*b;
+		System.out.println(res);
+		break;
+		case '/': res = a/b;
+		System.out.println(res);
+		break;
+		default: System.out.println("no choice operators");
+		}
+	}
+
+}
+----------------------------------------
+nested if
+
+1.public class Nestedif {
+	public static void main(String[] args) {
+
+		String name = "sunil";
+		String password = "sunil123";
+
+		if (name == "sunil") {
+			if (password == "sunil123") {
+				System.out.println("Login page");
+			} else {
+				System.out.println("invalid password");
+			}
+		} else {
+			System.out.println("invalid username");
+		}
+	}
+}
+
+2.
+public class LargestNum {
+	public static void main(String[] args) {
+
+		int a = 20, b = 23, c = 15;
+		if (a > b) {
+			if (a >= c) {
+				System.out.println("a is largest " + a);
+			} else {
+				System.err.println("c is largest " + c);
+			}
+		}
+
+		else {
+			System.out.println("b is largest num " + b);
+		}
+
+	}
+}
+
+3.
+
+public class Tallest {
+	public static void main(String[] args) {
+		
+		double std1 =5.8 , std2 = 6.0, std3 = 7.1;
+		if (std1 > std2) {
+			if (std1 >= std3) {
+				System.out.println("tallest of student1" );
+			} else {
+				System.err.println("tallest od std2");
+			}
+		}
+
+		else {
+			System.out.println("tallest of sudend3");
+		}
+	}
+}
+
+
+assignment
+
+1.
+     String week="friday";
+     switch(week)
+     {​​​​​​​
+       case "monday":
+           System.out.println("1st day of weeek");
+           break;
+       case "tuesday":
+           System.out.println("2nd day of weeek");
+           break;
+       case "wednesday":
+           System.out.println("3rd day of weeek");
+           break;
+       case "thursday":
+           System.out.println("4th day of weeek");
+           break;
+       case "friday":
+           System.out.println("5th day of weeek");
+           break;
+       case "saturday":
+           System.out.println("6th day of weeek");
+           break;
+       case "sunday":
+           System.out.println("7th day of weeek");
+           break;
+       default:
+           System.out.println("invalid weeek");
+     }​​​​​​​
+
+
+4.public static void main(String[] args) {
+		int marks=35;
+		
+	 if(marks>=60 && marks <=77)
+			System.out.println("Distinction");
+		else if(marks>=35&& marks<=40)
+			System.out.println("Pass");
+		else if(marks>=18 && marks<=34)
+			System.out.println("Fail");
+		
+	}
+	
+}
+
+
+Scanner Class
+------------------------------------------------
+S
+
+
+1.import java.util.Scanner;
+
+public class Demo {
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the integer number");
+		
+		int a = sc.nextInt();
+		System.out.println(a);
+	}
+
+}
+
+2.wAJP to check whether the number is even or odd
+
+import java.util.Scanner;
+
+public class EvenOrOdd {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter the number");
+		int a = sc.nextInt();
+		
+		if(a%2==0) {
+			System.out.println("even num");
+		}
+		else
+			System.out.println("odd num");
+	}
+}
+
+
+Login facebook
+3.
+import java.util.Scanner;
+
+public class Login {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enete the User Name");
+		String name= sc.nextLine();
+		System.out.println("Enetr the password");
+		String pass= sc.nextLine();
+		
+		if(name.equals("sunil")) {
+			if(pass.equals("sunil123")) {
+				System.out.println("login face book");
+			}
+			else {
+				System.out.println("invalid password");
+		}
+		}
+		else
+			System.out.println("invalid user name");
+		
+				
+	}
+}
+
+4.wajp to check number is divisible by 2 and 3 both
+
+
+import java.util.Scanner;
+
+public class NumDiv2And3 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enete the integer number");
+		int num=sc.nextInt();
+		if(num%2==0 && num%3==0)
+			System.out.println("divisible by 2 and 3");
+		else
+			System.out.println("Not divisible by 2 and 3");
+	}
+
+}
+
+
+

@@ -1,0 +1,106 @@
+public class Demo {
+public static void main(String[] args) {
+System.out.println("---Widening---");
+int a = 10;
+double b = a; // double b = 10;
+System.out.println(a+" "+b); // 10 10.0
+
+char c = 'A';
+int d = c;
+System.out.println(c+" "+d); // A 65
+
+System.out.println("---Narrowing---");
+
+double x = 3.56;
+int y = (int) x;
+System.out.println(x+" "+y); // 3.56 3
+
+int i = 66;
+char j = (char)i;
+System.out.println(i+" "+j); // 65 B
+
+System.out.println("-----------------------")
+
+1. Identify whether following are primitive or non-primitive types 
+(i) String  (ii) arrays  (iii) char  (iv) classes 
+Ans. 
+(i) String – Non-Primitive 
+(ii) arrays – Non primitive 
+(iii) char – Primitive 
+(iv) Classes – Non primitive
+
+2.Arrange the following primitive data types in an ascending order of their size: 
+(i)         char                                                    (ii)  byte 
+(iii)       double                                                 (iv)  int 
+
+3.What are the default values of the primitive data type int and float? 
+
+4.Identify what is the type of literals listed below: 
+(i) 0.5 (ii)’A’ (iii) false (iv) “a” 
+
+5. dentify the literals as given below: 
+i. 246 ii. ‘c’ iii. true     iv. “SimplyCoding” 
+Ans. i. int    ii. char     iii. boolean    iv. String 
+
+6.What is the range of the following data types: 
+byte 
+short 
+long 
+boolean 
+
+7.Identify the following as valid variable names, state reason if invalid : 
+S% 
+_A124 
+
+8.Identify the following as valid variable names, state reason if invalid : 
+_250 
+super 
+ST 106 
+While 
+
+9.Which of the following set of values can be assigned to a boolean variable? 
+Yes and No 
+true and false 
+0 and 1 
+high and low 
+
+10.What is Literal in Java?
+A) Literal is the value that is given or assigned to a variable.
+B) Literal is a data type
+C) Literal is similar to String
+D) None of the above
+
+11.What are the types of Literals available in Java language?
+A) Integer and Float
+B) Character and String
+C) Boolean
+D) All the above
+
+12.Choose correct examples of decimal literals in Java.
+A)
+int a = 12345; 
+B)
+int a = 12_3__5; 
+C)
+long a = 987____654_3__21L; 
+D) All the above
+
+13.What does a Data Type in Java refers to?
+A) The place where data is stored
+B) The technique how data is retreived
+C) The type or variety of data being handled for reading and writing
+D) None of the above
+
+14.What is a Primitive Data Type in Java?
+A) Data type, which is implemented in an Object-oriented way.
+B) Data Type which is implemented in a machine-dependent way
+C) Data Type which is implemented in a non-object oriented way.
+D) None of the above
+
+15.What is the abbreviation of ASCII?
+A) American Standard Characters for Information Interchange
+B) Australian Standard Code for Information Interchange
+C) American Standard Code for Information Interchange
+D) None of the above
+
+16. 

@@ -1,0 +1,108 @@
+unary operators
+
+1. post increment
+
+x=1;
+y=x++;
+
+firt assign the value latter increment by 1
+
+ex:
+
+int a = 2;
+int b = a++;
+system.out.println("a :"+a+", b : "+b); // a :3  , b :3
+
+2. pre increment
+
+x=1;
+y=++x;
+
+firt increment the value by 1 latter assign it
+
+
+
+
+1.Arithmetic Operators
+a. +
+b. –
+c. *
+d. /
+e. %
+2.Assignment Operators
+a.=
+b.+=
+c.-=
+d.*=
+e./=
+f. %=
+3.Conditional or Comparison or Relational 
+Operators
+a. <
+b.<=
+c. >
+d.>=
+e. ==
+f. !=
+
+Note: Return type is Boolean value (true or false)
+4. Logical Operators
+a. && -> AND
+b. || -> OR
+c. ! -> Not
+Note: Return type is Boolean value
+Truth Tables: True-T False-F
+AND (&&)
+A B O/P
+T T T
+T F F
+F T F
+F F F
+OR (||)
+A B O/P
+T T T
+T F T
+F T T
+F F F
+NOT
+T → F
+F → T
+5. Unary Operators 
+ ++ → Increment by 1
+-- → Decrement by 1
+
+int x = 5;
+int y = x++;
+Post-Increment -> First Assign, Then Increment
+---------------------------
+int a = 10;
+int b = ++a;
+Pre-Increment -> First Increment, Then Assign
+int x = 5;
+int y = x--;
+Post-Decrement -> First Assign, Then Decrement
+---------------------------
+int a = 10;
+int b = --a;
+
+
+int a = 2;
+int b = ++a;
+system.out.println("a :"+a+", b : "+b); // a :3  , b :3
+------------------------------------------------------------------------
+
+Decrement 
+
+1. post decrement
+
+x=1;
+y=x--;
+
+firt assign the value latter decrement by 1
+
+2. pre decrement
+
+x=1;
+y=--x;
+
+firt decrese the value by 1 latter assign it

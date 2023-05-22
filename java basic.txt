@@ -1,0 +1,32 @@
+Features of Java.
+
+1.java is Simple programming language and easy to understand .
+
+2. Platform Independent : write a java code an windows platform and
+				run any platform. (write once and run anywhare )
+
+3. Extensible : -- can be cobined with c , c++ , python....
+
+4. Object Oriented :its provide solution to given to the problem
+				by consider everything is an object.
+
+5. Automatic Garbage Collector
+6. Secured : ---
+7. Robust :-- strong 
+java has strong memory mamagement 
+it avoid expicit pointer
+
+Multithreaded: Java supports multithreading which allows multiple 
+threads to run concurrently
+or
+multiple task execute simultaniusuly called multitreaded
+example.  one persone is watching tv , eat food, singing at a time 
+
+8.portable : 
+java code --- write once run anywhare (WORA)
+
+
+9.dynamic : keep on change ex.amazone keep on change 
+, exam system
+
+1. static : constent ex pi=3.14

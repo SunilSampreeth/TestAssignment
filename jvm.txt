@@ -1,0 +1,43 @@
+JDK 
+- Java Development Kit
+- JDK is a software which contains all the resources in 
+order to develop and execute java programs.
+JRE 
+- Java Runtime Environment
+- JRE is a software which provides a platform for 
+executing java programs.
+JIT Compiler
+- Just In Time Compiler
+- JIT Compiler complies/coverts java program(High Level) 
+into machine understandable language.
+Class Loader
+- Loads the Class from secondary storage to executable 
+area.
+Interpreter
+- Interprets the code line by line.
+JVM 
+- Java Virtual Machine
+- JVM is the Manager of the JRE.
+
+JVM Architecture
+1. Heap Area - Objects get created here.
+2. Class Area - or Static Pool - All the static members 
+gets stored here.
+3. Stack - Execution happens inside stack.
+4. Method Area - Implementation of methods is stored here.
+5. Native Area
+
+1.We develop a java program and save the file 
+with the extension (.java).
+2. Next, we compile a java program to check if 
+there are any error in the program or not.
+3. If the compilation is unsuccessful (program 
+has errors) then we need to Debug.
+
+4. If the compilation is successful, the byte 
+code (intermediate code) gets generated with
+the extension (.class).
+5. Once the Byte code is generated, we can 
+execute (interpret) the program on all 
+operating systems.
+6. WORA stands for Write Once Run Anywhere.
