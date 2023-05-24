@@ -1,0 +1,172 @@
+Library management system
+
+step 1: start
+step 2: enter into the library
+step 3: register the library card
+step 4: search the book
+step 5: select the book
+step 6: signature of the register book.
+step 7: return the book go to step 2
+stem 8: stop
+
+
+
+
+ATM transaction
+
+step 1: start
+step 2: enter the card
+step 3: read pin
+step 4: if pin == 1234(database)
+	pin is not match invalid pin and  go to step 4
+step 5:if pin is match 
+	 select your account type
+	select your tranaction
+step 6:ener the amount
+step 7: if amount <= balence
+ 	amount withdrow susccessfully
+else 
+	insufficiant balence
+step 8: stop
+
+
+
+3 . Algorithm for restorent management system
+
+a. restorent management system
+
+step 1: start
+step 2: select the food 
+step 3: order the food
+step 3: check the amount
+step 4: pay the amount
+step 5: confirm the food
+step 6: recive the food
+step 7: stop
+
+b. kichen management system
+    
+step 1. Start
+step 2. Shows the numbers of items will be present
+	 in the menu.
+step 3. If selected the one item it will show the item ingridiances 
+	and processing time item.
+step 4. After selecting items it will take the whole process 
+	times consideration of all items which is takes time more it will indicates  as time duration for customer, and  have to waiit to get the item.
+step 5. After all the time it will comes to the customer
+step 6. Stop
+​
+
+c. employee management system
+
+
+1. Start
+2. In this we get the all employee details which working inside the resturant like catagories wise number of cheff's,number of waiters,number of dish cleaners, number of floor cleaners
+3. When we select the one  cheff we will get the total cheff's details which includes their salary,for which type of items they will make and their shift timing,like this for  every category  of employees we will get the salary ,type of work,shift timings
+4. After selecting we will get their details seperately category wise
+5. Stop
+      
+     
+   
+
+
+START.
+ENTER THE CARD.
+CHECK IF CARD IS VALID. IF CARD IS INVALID, RETURN CARD.
+ENTER THE LANGUAGE.
+ENTER PIN.
+IF THE PASSWORD IS INCORRECT.
+THEN REPEAT STEP 6.
+IF AGAIN WRONG THAN LAST TIME REPEAT STEP 6.
+ELSE DO NOT RETURN THE CARD TO USER
+if  PASSWORD IS CORRECt
+SELECT YOUR ACCOUNT TYPE
+SELECT YOUR TYPE OF TRANSACTIOn
+enter amount
+IF THE AMOUNT ENTERED IS AVAILABLE
+tHAN GIVE IT TO THE USER
+ELSE TELL THE USER THAT YOUR BALANCE IS LOW
+AFTER THE PROCESSING IS ENDS, PRINT RECIPT FOR USER
+THEN RETURN BACK THE CARD TO USER
+stop
+--------------------------------------------------------
+
+1. library management sysytem
+
+step 1: start
+step 2: enter into the library
+step 3: login timings
+step4: search the book
+step 5: take  book and store into library manager
+step6:take book
+step 7;stop
+
+2. purchase mobile on the amazone
+
+step1:start
+step 2: login into the amozone 
+step 3: search mobile
+step 4: add the cart
+step 5: i will buy
+step 6; enter the address
+step 7: make the payment
+step 8: order placed
+step9: delivery
+step10:stop
+
+
+3. instagram login page
+
+step 1: start
+step 2: enter the user name and password
+step3: click on login button
+	if the user name and password currect goto step 4
+	if the username and password is incurrect goto step 2
+step 4: login instagram page
+step 5:stop
+
+4. student management system
+
+step 1:start
+step 2:
+
+5.write a algoruthm for withdrawing cash from saving account using ATM card
+
+step 1: start
+step 2: enter the card
+		select your language
+		stelect your transaction
+		select your account type
+step 3: enter the pin number
+step 4: if pin is crt go to step 6
+step 5: if pin is not crt go to step 3
+step 6: enter the amount required
+step 7: collect your money
+step 8: print recipt 
+step 9:stop
+
+6.wa algorithm for online food system
+
+step 1: start
+step 2: go to  application(swiggy, zomoto)
+step 3: enter the username and password 
+	3.1 if the username and pass is crt goto step 4
+	3.1 if the username and pass is incrt goto step 3
+step 4: login application
+step 5: search food manus 
+		5.1 if the menu avilable order goto step 7
+		5.2 if the menu not avalible exit from app
+step 6: select the which ever food want
+step 7; confirm order 
+step 8: choose the payment mode 
+step 9:order confirmed
+step 9: stop
+
+7. whatsup message send to someone
+
+step 1:start
+step 2: open the whatsup application 
+step 3: select user willing to send the message
+stepp 4: type the message
+step 5: click on send button
+step 6:stop
